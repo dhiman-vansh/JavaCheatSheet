@@ -18,8 +18,20 @@
 
 .n-name{
 
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
+
+}
+
+.n-name>:nth-child(1){
+    color: var(--javaRed);
+    font-size: 2rem;
+
+}
+
+.n-name>:nth-child(2){
+    color: var(--javaBlue);
+    font-size: 2rem;
 
 }
 
@@ -49,7 +61,7 @@
 .n-list>ul>li:hover{
 
     cursor: pointer;
-    color : var(--darkpurple);
+    color : var(--javaBlue);
 }
 
 .n-button{
