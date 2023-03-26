@@ -1,0 +1,56 @@
+.footer{
+
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
+
+}
+
+.f-content{
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 6rem;
+    gap: 4rem;
+    color: white;
+}
+
+.f-icon{
+    display: flex;
+    gap: 2rem;
+
+}
+
+span{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 480px){
+    .f-content{
+      transform: scale(.6);
+      
+    }
+    .f-icon{
+        display: flex;
+        gap: 1.5rem;
+    
+    }
+
+    .f-content{
+
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+    
+    .wave{
+        transform: scale(1.5);
+    }
+
+  }
