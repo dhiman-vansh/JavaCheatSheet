@@ -15,7 +15,7 @@ const Footer = () => {
     <div className='footer' Id='Footer'>
       <img className='wave' src={wave} alt="" style={{width: '100%'}}/>
       <div className="f-content">
-        <a href='' style={{ color: darkMode ? "" : "white" }}><span>tarunsingh199002@gmail.com</span></a>
+        <a href='' style={{ color: darkMode ? "" : "white" }}><span>abhay.tomer25@gmail.com</span></a>
         
         <div className="f-icon">
           <a style={{ color: darkMode ? "black" : "white" }} href='https://www.facebook.com/'><Facebook  size='3rem'/></a>

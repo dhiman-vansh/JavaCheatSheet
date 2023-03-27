@@ -30,7 +30,7 @@
 }
 
 .n-name>:nth-child(2){
-    color: var(--javaBlue);
+    color: var(--javagrey);
     font-size: 2rem;
 
 }
@@ -61,7 +61,7 @@
 .n-list>ul>li:hover{
 
     cursor: pointer;
-    color : var(--javaBlue);
+    color : var(--javaRed);
 }
 
 .n-button{

@@ -20,7 +20,7 @@ const About = () =>{
 
             <div className="a-right" >
             
-                <img  Id="About" className="a-image"src={dp} alt="" width={"100%"} />
+                <img  Id="About" className="a-image"src="" alt="" width={"100%"} />
             </div>
 
          </div>
