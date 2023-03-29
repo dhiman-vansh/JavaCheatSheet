@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../Card/Card'
 import './Services.css';
 import vector1 from "../../img/Vector1.png";
-import resume from "./Tarun Singh_Resume.pdf";
+
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 
@@ -18,7 +18,7 @@ const Services = () => {
                 data-aos="zoom-out-right">
                 <span style={{ color: darkMode ? "white" : "" }}> Services </span>
                 <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br /> Incidunt minima quia ex eos mollitia porro quam ab adipisci quae su.<br />Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                <a href={resume} download> <button className="button s-button"> Resume </button></a>
+                <a href={""} download> <button className="button s-button"> Resume </button></a>
 
             </div>
             <div className="cards">
