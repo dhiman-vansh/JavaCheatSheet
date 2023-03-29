@@ -10,6 +10,7 @@ import { useContext } from "react";
 import { themeContext } from "./Context";
 import Experience from "./component/Experience/Experience";
 
+
 import Aos from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -37,7 +38,12 @@ function App() {
       <About />
       <Experience />
       <Portfolio />
-      <Contact />
+      <div style={{
+        maxWidth: "1400px",
+        margin: "auto"
+      }} >
+        <Contact />
+      </div>
       <Footer />
 
 

@@ -4,17 +4,24 @@ import './Intro.css'
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 import { Link } from "react-scroll";
-
-
+// import Aos from 'aos';
+// Aos.init({
+//     offset: 100,
+//     duration: 500,
+//     easing: 'ease-in-sine',
+//     delay: 50,
+// });
 
 const Intro = () => {
+
 
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
         <div className='intro'>
             <div className='i-left'
-                data-aos="zoom-out-right">
+                data-aos="zoom-out-right"
+            >
 
                 <div className='i-name'>
                     <span style={{ color: darkMode ? "#C3073F" : "" }}>Welcome </span>
@@ -25,11 +32,17 @@ const Intro = () => {
                     <Link activeClass="active" to="Contact" spy={true} smooth={true}>Let's Go</Link>
                 </button>
             </div>
-            <div className='i-right'>
-                <div className='i-image'>
+            <div className='i-right'
+                data-aos="slide-left"
+                data-aos-duration="1000"
+                data-aos-easing="ease-out-sine"
+                data-aos-delay="1000">
+                {/* <div className='i-image'> */}
+                {/* <iframe src='https://my.spline.design/untitled-d1cd5378d5aeb69d18ca8b150e6f6870/' frameborder='0' width='100%' height='100%'></iframe> */}
 
-                    <img src="" alt="" />
-                </div>
+                <iframe src='https://my.spline.design/untitled-d1cd5378d5aeb69d18ca8b150e6f6870/' style={{ transform: "scale(1.8)" }} frameborder='0' width='100%' height='100%'></iframe>
+                {/* <img src="" alt="" /> */}
+                {/* </div> */}
 
             </div>
         </div>

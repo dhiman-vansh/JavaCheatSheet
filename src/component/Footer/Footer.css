@@ -1,14 +1,24 @@
-.footer{
+.underline {
+    /* background-color: pink; */
+    color: inherit;
+    text-decoration: none;
+}
 
+.underline:hover {
+    /* background-color: azure; */
+    text-decoration: underline;
+}
+
+/* .footer {
+
+    background-color: aqua;
     display: flex;
     align-items: center;
-    margin: -0.5rem -3.5rem;
     position: relative;
-    margin-top: -7rem;
 
 }
 
-.f-content{
+.f-content {
 
     position: absolute;
     display: flex;
@@ -21,36 +31,36 @@
     color: white;
 }
 
-.f-icon{
+.f-icon {
     display: flex;
     gap: 2rem;
-
 }
 
-span{
+span {
     font-size: 28px;
     font-weight: 600;
 }
 
-@media screen and (max-width: 480px){
-    .f-content{
-      transform: scale(.6);
-      
-    }
-    .f-icon{
-        display: flex;
-        gap: 1.5rem;
-    
+@media screen and (max-width: 480px) {
+    .f-content {
+        transform: scale(.6);
+
     }
 
-    .f-content{
+    .f-icon {
+        display: flex;
+        gap: 1.5rem;
+
+    }
+
+    .f-content {
 
         gap: 2rem;
         margin-top: 3rem;
     }
-    
-    .wave{
+
+    .wave {
         transform: scale(1.5);
     }
 
-  }
+} */

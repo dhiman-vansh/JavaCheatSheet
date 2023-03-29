@@ -1,5 +1,4 @@
-
-.n-wrapper{
+.n-wraping {
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -8,7 +7,7 @@
 
 }
 
-.n-left{
+.n-left {
 
     flex: 1;
     align-items: center;
@@ -16,41 +15,52 @@
     gap: 2rem;
 }
 
-.n-name{
+.n-name {
 
     font-size: 1.5rem;
     font-weight: bold;
 
 }
 
-.n-name>:nth-child(1){
+.n-name>:nth-child(1) {
     color: var(--javaRed);
     font-size: 2rem;
 
 }
 
-.n-name>:nth-child(2){
+.n-name>:nth-child(2) {
     color: var(--javagrey);
     font-size: 2rem;
 
 }
 
-.n-right{
+.n-right {
 
     display: flex;
-    flex:1;
+    flex: 1;
     align-items: center;
     justify-content: center;
     font-weight: 400;
 }
 
-.n-list{
+/* 
+.n-right:hover {
+    cursor: pointer;
+} */
+
+.n-list {
 
     flex: 10;
 
 }
 
-.n-list>ul{
+.n-list>ul>li:hover {
+
+    cursor: pointer;
+    color: var(--javaRed);
+}
+
+.n-list>ul {
 
     display: flex;
     gap: 2rem;
@@ -58,28 +68,22 @@
     cursor: pointer;
 }
 
-.n-list>ul>li:hover{
-
-    cursor: pointer;
-    color : var(--javaRed);
-}
-
-.n-button{
+.n-button {
 
     flex: 1;
     width: 1rem;
     height: 2rem;
-    
+
 }
 
 @media screen and (max-width: 480px) {
     .n-list {
-      display: none;
+        display: none;
     }
 
-    .n-button{
+    .n-button {
         margin-left: 35%;
-        
+
     }
 
-  }
+}
