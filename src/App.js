@@ -10,6 +10,15 @@ import { useContext } from "react";
 import { themeContext } from "./Context";
 import Experience from "./component/Experience/Experience";
 
+import Aos from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+Aos.init({
+  offset: 100,
+  duration: 700,
+  easing: 'ease-in-sine',
+  delay: 50,
+});
 function App() {
 
   const theme = useContext(themeContext);
@@ -22,16 +31,16 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-      <Navbar/>
-      <Intro/>
-      <Services/>
-      <About/>
-      <Experience/>
-      <Portfolio/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <Intro />
+      <Services />
+      <About />
+      <Experience />
+      <Portfolio />
+      <Contact />
+      <Footer />
 
-      
+
     </div>
   );
 }
