@@ -1,18 +1,18 @@
-.contact{
+.contact {
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 80vh;
+    /* height: 80vh; */
     margin-top: 8rem;
 }
 
-.c-left>:nth-child(1){
+.c-left>:nth-child(1) {
 
     color: var(--black);
     font-weight: bold;
     font-size: 4rem;
 }
 
-.c-left>:nth-child(3){
+.c-left>:nth-child(3) {
 
     color: var(--darkpurple);
     font-weight: bold;
@@ -20,7 +20,7 @@
     margin-left: 1rem;
 }
 
-.c-right{
+.c-right {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -28,16 +28,16 @@
     flex: 1;
 }
 
-.c-right>form{
+.c-right>form {
 
     display: flex;
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    
+
 }
 
-.c-right .user{
+.c-right .user {
 
     width: 20rem;
     height: 2rem;
@@ -49,30 +49,32 @@
 
 }
 
-textarea{
-    height: 4rem!important;
+textarea {
+    height: 4rem !important;
 }
 
 
 @media screen and (max-width: 480px) {
-    .contact{
+    .contact {
         padding: 0;
         flex-direction: column;
         margin-top: -10%;
         gap: 2rem;
         height: 40rem;
     }
-    .c-right .user{
+
+    .c-right .user {
         width: 16rem;
     }
 
-    .c-left>:nth-child(1){
+    .c-left>:nth-child(1) {
 
         color: var(--black);
         font-weight: bold;
         font-size: 3rem;
     }
-    .c-left>:nth-child(3){
+
+    .c-left>:nth-child(3) {
 
         color: var(--darkpurple);
         font-weight: bold;
@@ -80,4 +82,4 @@ textarea{
         margin-left: 1%;
     }
 
-}   
+}

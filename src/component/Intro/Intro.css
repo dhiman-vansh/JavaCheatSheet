@@ -1,12 +1,15 @@
 .intro {
     display: flex;
-    max-width: 1200px;
+    max-width: 1400px;
     height: 77vh;
-    margin: 9rem auto;
+    margin: auto;
+    margin-bottom: 18rem;
+    /* background-color: antiquewhite; */
 }
 
 .i-left {
-
+    /* background-color: aqua; */
+    margin: 4rem 0px;
     display: flex;
     position: relative;
     flex: 1;
@@ -15,7 +18,13 @@
 }
 
 .i-right {
+    padding-top: 9rem;
     flex: 1;
+    /* transition: tranform .2s; */
+    transform: scale(2rem);
+    /* margin: auto; */
+    /* zoom: 150%; */
+    /* background-color: aqua; */
 }
 
 .i-name {
@@ -28,6 +37,7 @@
 
     color: var(--javaRed);
     font-weight: bold;
+    margin-bottom: -2rem;
     font-size: 5rem;
 }
 
@@ -54,7 +64,8 @@
 }
 
 .i-right>* {
-    position: absolute;
+    /* position: absolute; */
+    zoom: 150%;
     z-index: 1;
 }
 

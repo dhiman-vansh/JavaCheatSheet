@@ -12,6 +12,7 @@ const Services = () => {
 
     return (
 
+
         <div className="services" >
             <div className="s-right"
                 data-aos="zoom-out-right">

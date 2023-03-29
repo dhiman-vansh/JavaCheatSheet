@@ -8,8 +8,7 @@ const Navbar = () => {
 
     return (
 
-        <div className='n-wrapper' Id='Navbar'
-            data-aos="zoom-out-down">
+        <div className='n-wraping' Id='Navbar'>
             <div className="n-left">
                 <div className='n-name'> <span>Java</span> <span>Cheatsheet</span> </div>
                 <Toggle />
