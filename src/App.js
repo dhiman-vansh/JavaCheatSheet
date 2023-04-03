@@ -36,7 +36,7 @@ function App() {
       <Navbar />
       <Intro />
       <Services />
-      {/* <About /> */}
+      <About />
       {/* <Experience /> */}
       <Portfolio />
       <div style={{
