@@ -1,49 +1,48 @@
-:root
-{
-    --yellow: #F5C32C;
-    --orange : #FCA61F;
-    --black : #242D49;
-   /* --darkpurple: #c320fa ;*/ 
-    --darkpurple:#4E4E50;
-    --gray : #788097;
-    --blueCard : #DDF8FE;
-    --purple: rgb(238 210 255);
-    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
-    --orangeCard: rgba(252, 166, 31, 0.45);
-    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
-    --javaRed:#C3073F;
-    --javaBlack:#1A1A1D;
-    --javagrey: #4E4E50;
-    --javadarkRed:#950740;
-    --javaDarkerRed:#6F2232;
+:root {
+  --yellow: #F5C32C;
+  --orange: #FCA61F;
+  --black: #242D49;
+  /* --darkpurple: #c320fa ;*/
+  --darkpurple: #4E4E50;
+  --gray: #788097;
+  --blueCard: #DDF8FE;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --javaRed: #C3073F;
+  --javaBlack: #1A1A1D;
+  --javagrey: #4E4E50;
+  --javadarkRed: #950740;
+  --javaDarkerRed: #6F2232;
 }
 
-.App{
-    /* padding: 0.5rem 3.5rem; */
-    overflow: hidden;
-    color: var(--gray);    
+.App {
+  /* padding: 0.5rem 3.5rem; */
+  overflow: hidden;
+  color: var(--gray);
 }
 
-.button{
+.button {
 
   border-radius: 34px;
   border: none;
   color: white;
-  font-size:16px;
+  font-size: 16px;
   padding: 8px 20px 8px 20px;
-  background:linear-gradient(180deg, #C3073F 100%, #0e8bca 99% );
-  box-shadow:0px 10px 24px 3px rgba(220, 22, 22, 0.47);
+  background: linear-gradient(180deg, #C3073F 100%, #0e8bca 99%);
+  box-shadow: 0px 10px 24px 3px rgba(220, 22, 22, 0.47);
 
 
 
 }
 
-.button:hover{
+.button:hover {
   background: rgba(255, 255, 255, 0.925);
   cursor: pointer;
   color: var(--darkpurple);
   border: 1px solid var(--purple);
-  
+
 }
 
 @media screen and (max-width: 480px) {
@@ -53,5 +52,3 @@
 
   }
 }
-
-  
