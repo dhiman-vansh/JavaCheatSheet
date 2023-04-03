@@ -12,6 +12,9 @@
     margin: 4rem 0px;
     display: flex;
     position: relative;
+    /* background-color: aqua; */
+    z-index: 100;
+    /* margin/; */
     flex: 1;
     flex-direction: column;
     gap: 2rem;
@@ -19,12 +22,20 @@
 
 .i-right {
     padding-top: 9rem;
+    padding-right: 8rem;
     flex: 1;
+    overflow: hidden;
     /* transition: tranform .2s; */
     transform: scale(2rem);
     /* margin: auto; */
     /* zoom: 150%; */
     /* background-color: aqua; */
+}
+
+.i-right a {
+    /* visibility: none; */
+    background-color: blueviolet;
+    margin: 100px;
 }
 
 .i-name {

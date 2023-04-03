@@ -39,8 +39,7 @@ const Intro = () => {
                 data-aos-delay="1000">
                 {/* <div className='i-image'> */}
                 {/* <iframe src='https://my.spline.design/untitled-d1cd5378d5aeb69d18ca8b150e6f6870/' frameborder='0' width='100%' height='100%'></iframe> */}
-
-                <iframe src='https://my.spline.design/untitled-d1cd5378d5aeb69d18ca8b150e6f6870/' style={{ transform: "scale(1.8)" }} frameborder='0' width='100%' height='100%'></iframe>
+                <iframe src='https://my.spline.design/untitled-d1cd5378d5aeb69d18ca8b150e6f6870/' style={{ transform: "scale(1.8)" }} frameborder='0' width='150%' height='100%'></iframe>
                 {/* <img src="" alt="" /> */}
                 {/* </div> */}
 

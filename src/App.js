@@ -24,6 +24,7 @@ function App() {
 
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+
   return (
     <div
       className="App"
@@ -35,8 +36,8 @@ function App() {
       <Navbar />
       <Intro />
       <Services />
-      <About />
-      <Experience />
+      {/* <About /> */}
+      {/* <Experience /> */}
       <Portfolio />
       <div style={{
         maxWidth: "1400px",
