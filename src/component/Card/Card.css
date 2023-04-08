@@ -32,7 +32,7 @@
     padding: 8px 20px 8px 20px;
     background: linear-gradient(180deg, #C3073F 100%, #0e8bca 99%);
     box-shadow: 0px 1px 24px 0px rgba(220, 22, 22, 0.46);
-    /* display: block; */
+    display: block;
 }
 
 
