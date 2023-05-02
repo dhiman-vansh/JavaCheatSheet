@@ -1,6 +1,9 @@
 /* Styles required only for the example above */
 .scrollspy-example {
     position: relative;
-    height: 500px;
+    max-height: 60vh;
+    overflow-y: hidden;
+    /* overflow-x: hidden; */
+    background-color: aqua;
     overflow: auto;
   }

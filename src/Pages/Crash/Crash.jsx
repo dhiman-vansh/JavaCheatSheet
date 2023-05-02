@@ -15,9 +15,10 @@ export default function Crash() {
     const subsections = [sectionA, sectionB];
 
     return (
-        <MDBContainer>
-            <MDBRow>
-            <MDBCol md='4'>
+        <>
+        {/* <MDBContainer style={{maxHeight:"60vh",overflowY:"hidden", backgroundColor:"pink"}}> */}
+            <MDBRow >
+            <MDBCol md='2'>
                     <MDBScrollspy container={containerRef}>
                         <MDBScrollspyLink targetRef={section1}>Section 1</MDBScrollspyLink>
                         <MDBScrollspyLink targetRef={section2}>Section 2</MDBScrollspyLink>
@@ -31,7 +32,7 @@ export default function Crash() {
                         <MDBScrollspyLink targetRef={section4}>Section 4</MDBScrollspyLink>
                     </MDBScrollspy>
                 </MDBCol>
-                <MDBCol md='8'>
+                <MDBCol md='10'>
                     <div id='element' ref={containerRef} className='scrollspy-example'>
                         <section ref={section1} id='section-1'>
                             <h3>Section 1</h3>
@@ -116,6 +117,8 @@ export default function Crash() {
 
                 
             </MDBRow>
-        </MDBContainer>
+        {/* </MDBContainer> */}
+        </>
+
     );
 }

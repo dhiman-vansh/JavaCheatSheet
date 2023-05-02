@@ -7,8 +7,8 @@ export default function App() {
 
     return(
         <>
-        {/* <Front /> */}
-        <Crash />
+        <Front />
+        {/* <Crash /> */}
         {/* <Routes> */}
             {/* <Route path="/" Component={<Front />} /> */}
         {/* </Routes> */}
